@@ -1,0 +1,9 @@
+java.io
+构造方法
+平板立场
+File(String pathname)
+
+哦按段一个给定的路径是否是目录
+在File类中直接使用：public boolean isDirectory()
+
+ 

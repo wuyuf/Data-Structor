@@ -1,0 +1,27 @@
+System类
+
+
+1.public static void exit(int static)	系统推出，如果status为非0局表是退出
+
+2.public static void gc()		运行垃圾手机机制，调用的是Runtime类中的GC方法
+
+3.public static long currentTimeMillis()		返回以毫秒为单位的当前时间
+
+4.public static void arraycopy(Object src,int srcPos,Object dest,int destPos,int length)	数组拷贝操作
+
+5.public stati Properties getProperties()		去的当前的系统全部属性
+
+6.public static String getProperty(String key)		根据键值取得属性的具体内容
+
+
+ 可以使用NumberFormat类进行本地化的数字显示
+ 可以使用DecimalFormat指定何世华末班
+ MessageFormat、DateFormaNumberFoemat是Format三个常用的子类。可以使得程序进一步国际化
+ 
+ 可以使用BigInteger操作大整数
+ 可以使用BifDecimal指定小数的保留位数
+ 
+ 
+ Pattern Matcher类
+ 这两个类为正则的核心操作类
+ 
