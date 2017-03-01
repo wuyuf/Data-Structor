@@ -1,4 +1,4 @@
-package java_twelve;
+package java_twelve_OperationExample;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ import java.text.*;
 public class InputData{
 	private BufferedReader buf = null;
 	public InputData(){	//只要输入数据就要使用此语句
-		this.buf = new BufferedReader(new InputStreamReader(System.in));
+		this.buf = new BufferedReader(new InputStreamReader(System.in));		//接受键盘输入
 	}
 	public String getString(String info){  //一、得到字符串信息
 		String temp = null;
